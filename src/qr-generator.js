@@ -64,7 +64,7 @@ export default function QRCodeGenerator() {
     <div className="page">
       <div className="card">
         <div className="header">
-          <h1 className="title">QR Code Generator</h1>
+          <h1 className="title">SignalQR</h1>
           <span className="badge">Instant</span>
         </div>
         <p className="subtitle">Create a QR from any text or URL. It updates as you type.</p>

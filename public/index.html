@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/logoGreen.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="theme-color" content="#0f1020" />
+    <meta name="description" content="SignalQR is a fast, stylish QR code generator by BeaconLabs. Create and download QR codes as JPG or PDF instantly." />
+    <meta name="keywords" content="SignalQR, QR code generator, QR code, generate QR, BeaconLabs, Ma’din Academy" />
+    <meta name="author" content="BeaconLabs" />
+    <meta name="robots" content="index, follow" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logoGreen.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +24,42 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SignalQR — Fast QR Code Generator" />
+    <meta property="og:description" content="Create QR codes instantly and download as JPG or PDF. A BeaconLabs project." />
+    <meta property="og:image" content="%PUBLIC_URL%/logoGreen.png" />
+    <meta property="og:url" content="%PUBLIC_URL%/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SignalQR — Fast QR Code Generator" />
+    <meta name="twitter:description" content="Create QR codes instantly and download as JPG or PDF. A BeaconLabs project." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logoGreen.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="%PUBLIC_URL%/" />
+
+    <title>SignalQR — Fast QR Code Generator</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SignalQR",
+        "description": "Fast, stylish QR code generator by BeaconLabs. Create and download QR codes as JPG or PDF instantly.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web",
+        "publisher": {
+          "@type": "Organization",
+          "name": "BeaconLabs",
+          "url": "https://madin.edu.in/"
+        },
+        "image": "%PUBLIC_URL%/logoGreen.png",
+        "url": "%PUBLIC_URL%/"
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
