@@ -109,13 +109,13 @@ export default function QRCodeGenerator() {
         </div>
 
         <div className="footer">
-          <span>BeaconLabs &copy; {new Date().getFullYear()}</span>
+          <span>Ma'din R&D Labs &copy; {new Date().getFullYear()}</span>
           <button
             className="icon-btn"
             onClick={() => setShowAbout((v) => !v)}
             aria-expanded={showAbout}
             aria-controls="about-panel"
-            title="About BeaconLabs"
+            title="About Ma'din R&D Labs"
           >
             i
           </button>
@@ -123,12 +123,12 @@ export default function QRCodeGenerator() {
 
         <div id="about-panel" className={`about ${showAbout ? "open" : ""}`}>
           <p>
-        &nbsp; BeaconLabs is the digital innovation hub of Ma’din Academy.
-        We are a creative tech team dedicated to building and managing the Academy’s digital 
-        ecosystem — from mobile apps and ERP systems to new platforms that empower students, 
-        staff, and the community. Like a beacon of light, we guide Ma’din’s digital transformation with purpose, 
-        combining innovation and values. Our mission is to brighten today with solutions that work while shaping tomorrow with technology that inspires.
-        At BeaconLabs, we believe technology is not just about tools — it’s about creating meaningful, 
+        &nbsp; Ma'din R&D Labs is the research and development hub of Ma’din Academy.
+        We are a creative tech team dedicated to innovating and managing the Academy’s digital
+        ecosystem — from mobile apps and ERP systems to new platforms that empower students,
+        staff, and the community. As a center of innovation, we drive Ma’din’s digital transformation with purpose,
+        combining research, development, and values. Our mission is to brighten today with solutions that work while shaping tomorrow with technology that inspires.
+        At Ma'din R&D Labs, we believe technology is not just about tools — it’s about creating meaningful,
         human-centered experiences that reflect knowledge, guidance, and progress.
           </p>
         </div>
