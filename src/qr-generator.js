@@ -123,7 +123,7 @@ export default function QRCodeGenerator() {
 
         <div id="about-panel" className={`about ${showAbout ? "open" : ""}`}>
           <p>
-        &nbsp; Ma'din R&D Labs is the research and development hub of Ma’din Academy.
+        &nbsp; Ma'din R&D Labs is the research and development hub of <a href="https://madin.edu.in/">Ma’din Academy</a>.
         We are a creative tech team dedicated to innovating and managing the Academy’s digital
         ecosystem — from mobile apps and ERP systems to new platforms that empower students,
         staff, and the community. As a center of innovation, we drive Ma’din’s digital transformation with purpose,
